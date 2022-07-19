@@ -1,0 +1,101 @@
+.container {
+  background-color: #23252c;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.card {
+  width: 317px;
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.info {
+  text-align: center;
+  line-height: 1.5;
+  background-color: #1a1b21;
+}
+
+.info > p {
+  color: #f3bf99;
+  font-size: 20px;
+}
+
+.info > button {
+  color: black;
+  background-color: white;
+  padding: 8px 20px;
+  width: 247px;
+  margin: 20px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+img {
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: contain;
+  margin: 0;
+}
+
+h1 {
+  font-size: 25px;
+}
+.content {
+  background-color: #1a1b21;
+  padding-bottom: 20px;
+}
+.about {
+  width: 247px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.about > h2 {
+  font-size: 18px;
+}
+
+.about > p {
+  font-size: 14px;
+}
+
+.interests {
+  width: 247px;
+  margin: auto;
+}
+
+.interests > h2 {
+  font-size: 18px;
+}
+
+.interests > p {
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  justify-content: center;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer > img {
+  width: 25px;
+  margin: 0 20px;
+}
